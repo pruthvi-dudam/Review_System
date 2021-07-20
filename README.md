@@ -1,5 +1,5 @@
 # About
-Java based application that allows a user to register, view products and leave a review + rating for products. The data is stored in a MongoDB engine.
+Java application using Maven, that allows a user to register, view products and leave a review + rating for products. The data is stored in a MongoDB engine.
 
 # How to run the Application
 
@@ -27,9 +27,9 @@ Clone the repository
 5. It can also be accessed through localhost: 27017
 
 ### Run the Java Application
-1. open another terminal window and go to the directory where you installed the cloned repository file
+1. Open another terminal window and go to the directory where you installed the cloned repository file
 2. Type $ `mvn clean install`
-3. Go to the target folder directory located in the folder- $ `cd target/`
+3. Go to the target folder directory located inside the current directory - $ `cd target/`
 4. Type $ `java -jar snapshot.jar`
 
 ### To test the Application and View Updated DB
@@ -43,6 +43,5 @@ Clone the repository
     - 6). Get review+rating for specific product 
     - 7). Get review+rating for all products 
     - Enter input from 1 - 7, ctrl+c to exit. "
-2. Input a few values in your CLI
+2. Input a few values in your terminal
 3. To view the DB, open MongoDB Compass, refresh and view the updated data.
-
