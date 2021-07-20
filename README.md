@@ -9,13 +9,13 @@ The following services must be installed:
 1. [Java Development kit](https://www.oracle.com/java/technologies/javase-downloads.html)
 2. [Java IDE](https://www.jetbrains.com/idea/)
 2. [Maven java](https://maven.apache.org/download.cgi)
-3. [MongoDB](https://www.mongodb.com/try/download/community)
+3. [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-os-x/) (Using Homebrew Tap)
 4. [MongoDB compass](https://www.mongodb.com/products/compass)
 
 ## Installation
 
 Clone the repository
-`$ git clone https://github.com/pruthvi-dudam/Review_System.git`
+$ `git clone https://github.com/pruthvi-dudam/Review_System.git`
 
 ## Development Mode
 ### Run MongoDB
